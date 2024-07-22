@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <style>
+        .login-page {
+            height: 440px;
+            width: 32%;
+            padding: 10px;
+            margin: auto;
+            background-color: #ffffff;
+            border-radius: 19px;
+            text-align: center;
+            font: icon;
+            color: #08a7af;
+            margin-top: 72px;
+        }
+
+        body {
+            background-color: #57cdcd;
+            background: linear-gradient(to left, #069097, #79e1c9 91%);
+        }
+
+        .field {
+            line-height: 1;
+            height: 3.25rem;
+            width: 70%;
+            border: 1px solid #cbcaca;
+        }
+
+        .input-btn {
+            margin-top: 40px;
+        }
+
+        .checkbox-btn {
+            width: 54%;
+            margin-top: 5px;
+        }
+
+        .checkbox-btn span {
+            color: black;
+            font-size: small;
+        }
+
+        .sign-in-btn {
+            height: 43px;
+            width: 91px;
+            background-color: #08a7af;
+            border: 1px solid #08a7af;
+            border-radius: 7px;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .footer-text {
+            color: black;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        .footer-text span {
+            color: #08a7af;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <div class="login-page">
+            <h1>
+                Login
+            </h1>
+            <div class="login-form">
+                <form>
+                    <div class="input-btn">
+                        <input type="text" name="email" placeholder="Email" class="field" />
+                    </div>
+                    <div class="input-btn">
+                        <input type="password" name="password" placeholder="Password" class="field" />
+                    </div>
+                    <div class="checkbox-btn">
+                        <input type="checkbox" name="show" class="checkbox" />
+                        <span>Show Password</span>
+                    </div>
+                    <div class="input-btn">
+                        <button class="sign-in-btn">Sign In</button>
+                    </div>
+                    <div class="footer-text">
+                        <div>Forgot <span>Username</span> / <span>Password</span>?</div>
+                        <div>Don't have an account? <span>Sign up</span></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
