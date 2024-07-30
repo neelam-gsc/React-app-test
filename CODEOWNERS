@@ -2,8 +2,7 @@
 
 # Define owners for specific paths
 # Format: path @github-username or @org/team-name
-/src/components/ @srishti.argarwal
-/src/utils/ @backend-team @john-doe
+@srishti.argarwal
 
 # Owners for all files
 * @default-team
